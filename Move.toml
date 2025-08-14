@@ -1,0 +1,15 @@
+[package]
+name = "AccessCentralLibrary"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Madhu_addr="6d8e7dd1e645d4a8d4d6641000c241ba073753a081b3a15e9bbe9a56c9de423b"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
